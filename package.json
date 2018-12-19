@@ -1,0 +1,26 @@
+{
+  "name": "terrarium-watcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erenaud3/terrarium-watcher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erenaud3/terrarium-watcher/issues"
+  },
+  "homepage": "https://github.com/erenaud3/terrarium-watcher#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "csv-parse": "^4.2.0",
+    "express": "^4.16.4",
+    "glob": "^7.1.3"
+  }
+}
